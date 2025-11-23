@@ -9,17 +9,16 @@
   <h1>Smart AI Assistant</h1>
   <p>Your bot should load automatically at the bottom-right of the page.</p>
 
+  <script src="https://cdn.botpress.cloud/webchat/v3.4/inject.js"></script>
   <script>
-    window.botpress = {
-      botId: "a8dd89a6-58b3-4b15-b015-a660c0bbcbe2",
-      workspaceId: "wkspace_01KAD7XHJJ5RNPP8DB0J83YC52",
-      botName: "Smart AI Assistant",
-      showPoweredBy: false,
-      enableConversationDeletion: true,
-    };
+    window.botpressWebChat.init({
+      "botId": "a8dd89a6-58b3-4b15-b015-a660c0bbcbe2",
+      "workspaceId": "wkspace_01KAD7XHJJ5RNPP8DB0J83YC52",
+      "botName": "Smart AI Assistant v1.0",
+      "showPoweredBy": false,
+      "enableConversationDeletion": true
+    });
   </script>
-
-  <script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
 </body>
 </html>
 
